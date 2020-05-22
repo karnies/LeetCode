@@ -17,7 +17,7 @@ public:
 			total_squares += matrix[i][0];
 
 		// store the number of sqaure that (i,j) is right-down element 
-		// if left, up, left-up square is nxn, then current square is (n+1)x(n+1)
+		// if left, up, left-up square is nxn and (i,j) is 1, then current square is (n+1)x(n+1)
 		for (i = 1; i < M; i++)
 		{
 			for (j = 1; j < N; j++)
